@@ -26,6 +26,56 @@
     	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
     	font-weight: 300;
 	}
+
+.pca-hold {
+  width: 300px;
+}
+.pca-hold .pca-main {
+  display: block;
+  position: relative;
+  background: url(/img/logo.svg);
+  border: 21px solid #1d2d2d;
+  border-bottom: 30px solid #1d2d2d;
+  border-radius: 15px;
+  height: 372px;
+}
+.pca-hold .pca-main:after {
+  content: '';
+  position: absolute;
+  top: -8px;
+  left: 50%;
+  -webkit-transform: translate(-50%,0);
+  -ms-transform: translate(-50%,0);
+  -o-transform: translate(-50%,0);
+  transform: translate(-50%,0);
+  width: 3.3px;
+  height: 3.3px;
+  background-color: #959595;
+  border-radius: 100%;
+}
+.pca-hold .pca-inner {
+  display: block;
+}
+.pca-hold .pca-sub {
+  display: block;
+  text-align: center;
+  position: relative;
+  height: 0;
+}
+.pca-hold .pca-sub .pca-bot {
+  border-radius: 100%;
+  width: 18px;
+  height: 18px;
+  display: block;
+  background-color: transparent;
+  z-index: 2;
+  margin: -6px auto 0 auto;
+  box-shadow: 0 0 0 1px rgba(255,255,255,0.6);
+  -webkit-transform: translate(0,-100%);
+  -ms-transform: translate(0,-100%);
+  -o-transform: translate(0,-100%);
+  transform: translate(0,-100%);
+}
   	</style>
    
   </head>
@@ -48,6 +98,20 @@
         <p class="measure lh-copy"><span class="ttu">We Make Epic and Efficent Apps </span> serving many different purposes but all with an epic, simple and efficient look and feel for iPad, iPhone,  Watch, iMac, MacBook and Mac.</p>
 
         <p class="measure lh-copy"><span class="ttu">You Reap the Benefits</span> when we make your apps with our key principles of epic and efficient in mind.</p>
+
+<div class='pca-hold'>
+  <div class='pca-main'>
+    <div class='pca-inner'>
+    </div><!-- 'pca-inner' -->
+  </div><!-- 'pca-main' -->
+  <div class='pca-sub'>
+    <div class='pca-top'></div>
+    <div class='pca-mid'>
+      <div class='pca-part'></div>
+    </div><!-- 'pca-mid' -->
+    <div class='pca-bot'></div>
+  </div><!-- 'pca-bot' -->
+</div><!-- 'pca-hold' -->
 
       </section>
 
