@@ -1,1 +1,0 @@
-This is a placeholder because we don't currently use local CSS files. Instead, we use the wonderful [Tachyons](http://tachyons.io) by the equally wonderful [Adam Morse](http://mrmrs.cc). Make sure you check them out! Enjoy your day 😀
