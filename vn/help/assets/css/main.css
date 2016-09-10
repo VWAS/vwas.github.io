@@ -1622,7 +1622,7 @@
 	}
 
 	body {
-		background: #312450;
+		background: black;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -1639,8 +1639,8 @@
 /* Type */
 
 	body, input, select, textarea {
-		color: rgba(255, 255, 255, 0.55);
-		font-family: Arial, Helvetica, sans-serif;
+		color: white;
+		font-family: Helvetica-Neue ,Helvetica, Arial, sans-serif;
 		font-size: 16.5pt;
 		font-weight: normal;
 		line-height: 1.75;
@@ -1699,7 +1699,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
+		color: white;
 		font-weight: bold;
 		line-height: 1.5;
 		margin: 0 0 0.5em 0;
@@ -1889,8 +1889,8 @@
 		transition: border-color 0.2s ease;
 		background-color: transparent;
 		border: solid 1px !important;
-		border-color: rgba(255, 255, 255, 0.15) !important;
-		border-radius: 3em;
+		border-color: white !important;
+		border-radius: 1em;
 		color: #ffffff !important;
 		cursor: pointer;
 		display: inline-block;
@@ -1926,7 +1926,7 @@
 			-ms-transition: opacity 0.2s ease, -ms-transform 0.2s ease;
 			transition: opacity 0.2s ease, transform 0.2s ease;
 			background: #ffffff;
-			border-radius: 3em;
+			border-radius: 1em;
 			content: '';
 			height: 100%;
 			left: 0;
@@ -3534,7 +3534,7 @@
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #312450;
+		background: black;
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3771,7 +3771,7 @@
 			}
 
 			#sidebar nav a:before {
-				background: #3c2c62;
+				background: clear;
 			}
 
 			#sidebar nav a:after {
@@ -3791,7 +3791,7 @@
 			}
 
 			#sidebar nav a.active {
-				color: #ffffff;
+				color: white;
 			}
 
 				#sidebar nav a.active:after {
@@ -3867,7 +3867,7 @@
 
 						#sidebar nav a:after {
 							background-image: none;
-							background-color: #b74e91;
+							background-color: white;
 						}
 
 		}
@@ -3887,7 +3887,7 @@
 		background-image: url("images/sandcamp.jpg");
 		background-position: top right;
 		background-repeat: no-repeat;
-		background-size: 100% 100%;
+		background-size: cover;
 	}
 
 		#intro p {
