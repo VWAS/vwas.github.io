@@ -3080,11 +3080,11 @@
 			}
 
 		.spotlights > section:nth-child(2) {
-			background-color: rgba(0, 0, 0, 0.05);
+			background-color: black;
 		}
 
 		.spotlights > section:nth-child(3) {
-			background-color: rgba(0, 0, 0, 0.1);
+			background-color: rgba(10, 10, 10, 1.0);
 		}
 
 		.spotlights > section.inactive > .image:before, body.is-loading .spotlights > section > .image:before {
@@ -3252,12 +3252,12 @@
 			background-color: #261c3e;
 		}
 
-		.wrapper.style1 {
-			background-color: #5e42a6;
+		.wrapper.style1-blackgray {
+			background-color: rgba(10, 10, 10, 1.0);
 		}
 
-		.wrapper.style1-alt {
-			background-color: #493382;
+		.wrapper.style1-black {
+			background-color: black;
 		}
 
 		.wrapper.style2 {
@@ -3523,7 +3523,7 @@
 
 	#footer > .inner .menu {
 		font-size: 0.8em;
-		color: rgba(255, 255, 255, 0.15);
+		color: rgba(255, 255, 255, 0.55);
 	}
 
 	#header + #wrapper + #footer > .inner {
