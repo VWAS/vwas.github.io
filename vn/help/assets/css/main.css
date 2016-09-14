@@ -3012,7 +3012,7 @@
 		-webkit-flex-direction: row;
 		-ms-flex-direction: row;
 		flex-direction: row;
-		min-height: 22.5em;
+		min-height: 1em;
 	}
 
 		body.is-ie .spotlights > section {
@@ -3884,7 +3884,7 @@
 
 	#intro {
 		background-attachment: fixed;
-		background-image: url("images/sandcamp.jpg");
+		background-image: url("images/RedCapInDungeon.jpg");
 		background-position: top right;
 		background-repeat: no-repeat;
 		background-size: cover;
