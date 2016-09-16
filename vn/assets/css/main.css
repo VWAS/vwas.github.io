@@ -4283,6 +4283,14 @@
 			font-size: 1.25em;
 		}
 		
+		
+		@media screen and (max-aspect-ratio: 16/10) {
+			#GuideIntro {
+				background-image: url("images/astronaut_Pad.svg");
+
+			}	
+		}
+		
 /* Menu */
 
 	#menu {
