@@ -4247,9 +4247,9 @@
 
 	#intro {
 		font-weight: lighter;
-		background-attachment: scroll;
-		background-image: url("images/introBig.png");
-		background-position: top right;
+		background-attachment: fixed;
+		background-image: url("images/Astronaut_Main_1610.svg");
+		background-position: top;
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
@@ -4258,14 +4258,25 @@
 			font-size: 1.25em;
 		}
 		
-		
-		@media screen and (max-width: 800px) { 
-			
+		@media screen and (max-height: 500px) {
 			#intro {
-				background-image: url("images/introSmall.jpg");	
-			}
-			
+				background-image: url("images/Astronaut_Main_Pad.svg");
+
+			}	
 		}
+		
+		@media screen and (max-aspect-ratio: 16/10){
+			#intro {
+				background-image: url("images/Astronaut_Main_Pad.svg");
+
+			}	
+		}
+		
+		@media only screen and (orientation : portrait) {
+			#intro {
+				background-image: url("images/Astroaut_Main_Phone.svg");
+			}
+		} 
 		
 		
 /* GuideIntro */
