@@ -3404,7 +3404,7 @@
 			height: inherit;
 			line-height: inherit;
 			padding: 0 1.5em;
-			background-image: url(images/logo.svg);
+			background-image: url("images/logo.svg");
 			background-repeat: no-repeat;
 			text-indent: 50px;
 
