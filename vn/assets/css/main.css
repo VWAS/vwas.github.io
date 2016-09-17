@@ -4267,6 +4267,7 @@
 		
 		@media screen and (max-aspect-ratio: 16/10){
 			#intro {
+				background-attachment: scroll;
 				background-image: url('images/astronaut_main_pad.svg');
 
 			}	
@@ -4274,6 +4275,7 @@
 		
 		@media only screen and (orientation : portrait) {
 			#intro {
+				background-attachment: scroll;
 				background-image: url('images/astroaut_main_phone.svg');
 			}
 		} 
