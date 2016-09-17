@@ -96,7 +96,7 @@
 			$body = $('body'),
 			$wrapper = $('#wrapper'),
 			$header = $('#header'),
-			$banner = $('#banner');
+			$GuideIntro = $('#GuideIntro');
 
 		// Disable animations/transitions until the page has loaded.
 			$body.addClass('is-loading');
@@ -200,7 +200,7 @@
 			if (skel.vars.IEVersion < 9)
 				$header.removeClass('alt');
 
-			if ($banner.length > 0
+			if ($GuideIntro.length > 0
 			&&	$header.hasClass('alt')) {
 
 				$window.on('resize', function() {
@@ -209,7 +209,7 @@
 
 				$window.on('load', function() {
 
-					$banner.scrollex({
+					$GuideIntro.scrollex({
 						bottom:		$header.height() + 10,
 						terminate:	function() { $header.removeClass('alt'); },
 						enter:		function() { $header.addClass('alt'); },
@@ -224,8 +224,8 @@
 
 			}
 
-		// Banner.
-			$banner.each(function() {
+		// GuideIntro.
+			$GuideIntro.each(function() {
 
 				var $this = $(this),
 					$image = $this.find('.image'), $img = $image.find('img');

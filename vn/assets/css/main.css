@@ -1,4 +1,6 @@
 @import url(font-awesome.min.css);
+@import url(footer.css);
+@import 'https://fonts.googleapis.com/css?family=Roboto';
 
 /*
 	Hyperspace by HTML5 UP
@@ -1639,10 +1641,10 @@
 /* Type */
 
 	body, input, select, textarea {
-		color: white;
-		font-family: Helvetica-Neue ,Helvetica, Arial, sans-serif;
+		color: white;	
+		font-family: 'Roboto', Helvetica-Neue ,Helvetica, Arial, sans-serif;
 		font-size: 16.5pt;
-		font-weight: normal;
+		font-weight: light;
 		line-height: 1.75;
 	}
 
@@ -3011,8 +3013,9 @@
 		-moz-flex-direction: row;
 		-webkit-flex-direction: row;
 		-ms-flex-direction: row;
-		flex-direction: row;
+		flex-direction: column;
 		min-height: 1em;
+		text-align: center;
 	}
 
 		body.is-ie .spotlights > section {
@@ -3024,8 +3027,8 @@
 			background-size: cover;
 			border-radius: 0;
 			display: block;
-			position: relative;
-			width: 25em;
+			margin: auto;
+			position:fixed;
 		}
 
 			.spotlights > section > .image img {
@@ -3063,7 +3066,7 @@
 			-webkit-justify-content: center;
 			-ms-justify-content: center;
 			justify-content: center;
-			width: 50em;
+			width: 100%;
 			-ms-flex: 1;
 		}
 
@@ -3667,11 +3670,12 @@
 
 
 	#footer > .inner a {
-		border-bottom-color: rgba(255, 255, 255, 0.15);
+		border-bottom-color: transparent;
+		font-weight: bold;
 	}
 
 		#footer > .inner a:hover {
-			border-bottom-color: transparent;
+			border-bottom-color: rgba(255, 255, 255, 0.15);
 		}
 
 	#footer > .inner .menu {
@@ -4258,16 +4262,18 @@
 			font-size: 1.25em;
 		}
 		
-		@media screen and (max-height: 500px) {
+
+		
+		@media screen and (max-aspect-ratio: 16/10){
 			#intro {
+				background-attachment: scroll;
 				background-image: url('images/astronaut_main_pad.svg');
 
 			}	
 		}
 		
-		@media screen and (max-aspect-ratio: 16/10){
+		@media screen and (max-height: 500px) {
 			#intro {
-				background-attachment: scroll;
 				background-image: url('images/astronaut_main_pad.svg');
 
 			}	
