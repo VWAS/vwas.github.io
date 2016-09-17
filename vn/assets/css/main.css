@@ -3404,7 +3404,7 @@
 			height: inherit;
 			line-height: inherit;
 			padding: 0 1.5em;
-			background-image: url("images/logo.svg");
+			background-image: url('images/logo.svg');
 			background-repeat: no-repeat;
 			text-indent: 50px;
 
@@ -4247,9 +4247,9 @@
 
 	#intro {
 		font-weight: lighter;
-		background-attachment: fixed;
-		background-image: url("images/Astronaut_Main_1610.svg");
-		background-position: top;
+		background-attachment: scroll;
+		background-image: url('images/astronaut_main_1610.svg');
+		background-position: top right;
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
@@ -4260,21 +4260,21 @@
 		
 		@media screen and (max-height: 500px) {
 			#intro {
-				background-image: url("images/Astronaut_Main_Pad.svg");
+				background-image: url('images/astronaut_main_pad.svg');
 
 			}	
 		}
 		
 		@media screen and (max-aspect-ratio: 16/10){
 			#intro {
-				background-image: url("images/Astronaut_Main_Pad.svg");
+				background-image: url('images/astronaut_main_pad.svg');
 
 			}	
 		}
 		
 		@media only screen and (orientation : portrait) {
 			#intro {
-				background-image: url("images/Astroaut_Main_Phone.svg");
+				background-image: url('images/astroaut_main_phone.svg');
 			}
 		} 
 		
@@ -4284,7 +4284,7 @@
 #GuideIntro {
 		font-weight: lighter;
 		background-attachment: scroll;
-		background-image: url("images/astronaut.svg");
+		background-image: url('images/astronaut.svg');
 		background-position: top right;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -4297,7 +4297,7 @@
 		
 		@media screen and (max-aspect-ratio: 16/10) {
 			#GuideIntro {
-				background-image: url("images/astronaut_Pad.svg");
+				background-image: url('images/astronaut_pad.svg');
 
 			}	
 		}
